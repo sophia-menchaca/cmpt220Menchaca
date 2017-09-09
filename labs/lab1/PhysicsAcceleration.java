@@ -6,7 +6,7 @@ public class PhysicsAcceleration {
 
 		// Prompt the user to enter the start velocity (v0) 
 		// The end velocity (v1) in meters/second, and the time t in seconds.
-		System.out.print(&quot;Enter v0, v1 and t: &quot;);
+		System.out.print("Enter v0, v1 and t: ");
 		double v0 = input.nextDouble();
 		double v1 = input.nextDouble();
 		double t = input.nextDouble();
@@ -15,7 +15,7 @@ public class PhysicsAcceleration {
 		double a = (v1 - v0) / t;
 
 		// Display result
-		System.out.println(&quot;The average acceleration is &quot; + a);
+		System.out.println("The average acceleration is " + a);
     }
 }
 

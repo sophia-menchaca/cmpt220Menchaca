@@ -4,7 +4,7 @@ public class MinutesToYears {
 		Scanner input = new Scanner(System.in);
 
 		// Prompt the user to enter minutes
-		System.out.print(&quot;Enter the number of minutes: &quot;);
+		System.out.print("Enter the number of minutes: ");
 		int minutes = input.nextInt();
 
 		// Compute the number of years and days
@@ -13,8 +13,8 @@ public class MinutesToYears {
 		int days = (minutes % 525600) / 1440;
 
 		// Display results
-		System.out.println(minutes + &quot; minutes is approximately &quot; + years
-			+ &quot; years and &quot; + days + &quot; days&quot;);
+		System.out.println(minutes + " minutes is approximately " + years
+			+ " years and " + days + " days");
     }
 }
 

@@ -6,7 +6,7 @@ public class SubtotalGratuity {
 		Scanner input = new Scanner(System.in);	// Create new Scanner 
 
 		// Prompt the user to enter the subtotal and the gratuity
-		System.out.print(&quot;Enter the subtotal and a gratuity rate: &quot;);
+		System.out.print("Enter the subtotal and a gratuity rate: ");
 		double subtotal = input.nextDouble();
 		double gratuityRate = input.nextDouble();
 
@@ -15,8 +15,8 @@ public class SubtotalGratuity {
 		double total = subtotal + gratuity;
 
 		// Show the final calculation
-		System.out.println(&quot;The gratuity is $&quot; + gratuity +
-			&quot; and total is $&quot; + total);
+		System.out.println("The gratuity is $" + gratuity +
+			" and total is $" + total);
     }
 }
 
