@@ -1,3 +1,4 @@
+// JA: You forgot to print the pounds
 public class KilogramToPound {
 	public static void main(String[] args) {
 		// Create constant value for number of pounds per kilogram
