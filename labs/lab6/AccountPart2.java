@@ -20,19 +20,21 @@ public class AccountPart2 {
 /*
  * Account
  * 
- * Id: int
- * balance: double
- * annualInterestRate: double
+ * -Id: int
+ * -balance: double
+ * -annualInterestRate: double
+ * -dateCreated: Date
  * 
- * withdraw(double)
- * deposit(double)
- * setId(int)
- * setBalance(double)
- * setAnnualInterestRate(double)
- * getId()
- * getBalance()
- * getAnnualInetrestRate()
- * GetMonthlyInterestRate()
- * getDateCreated()
+ * +Account()
+ * +withdraw(double)
+ * +deposit(double)
+ * +setId(int)
+ * +setBalance(double)
+ * +setAnnualInterestRate(double)
+ * +getId()
+ * +getBalance()
+ * +getAnnualInetrestRate()
+ * +GetMonthlyInterestRate()
+ * +getDateCreated()
  * */
  
