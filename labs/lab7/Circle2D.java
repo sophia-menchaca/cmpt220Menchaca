@@ -34,8 +34,8 @@ public class Circle2D {
 	}
 	public boolean contains(Circle2D circle) {//true if circle is inside other circle
 		return Math.sqrt(Math.pow(circle.getX() - x, 2) + 
-				 Math.pow(circle.getY() - y, 2)) 
-				 <= Math.abs(radius - circle.getRadius());
+				 Math.pow(circle.getY() - y, 2))+circle.getRadius()
+				 <= radius;
 	}
 	public boolean overlaps(Circle2D circle) {//true if circles overlap
 		return Math.sqrt(Math.pow(circle.getX() - x, 2) + 
