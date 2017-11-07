@@ -1,26 +1,12 @@
 import java.util.Scanner;
 public class TrianglePart2 {
 	public static void main(String[] args) {
-		Scanner input = new Scanner(System.in);
-
-		// geet 3 sides from userr
-		System.out.print("Enter three side lengths of the triangle: ");
-		double side1 = input.nextDouble();		
-		double side2 = input.nextDouble();		
-		double side3 = input.nextDouble();
-		//user filled
-		System.out.print("Is the triangle filled (true / false)? ");
-		boolean filled = input.nextBoolean();
-		//user color
-		System.out.print("Enter a color: ");
-		String color = input.next();
-		//make user trieangle
-		Triangle triangle = new Triangle(side1, side2, side3);
-		triangle.setColor(color);
-		triangle.setFilled(filled);
+		Triangle triangle = new Triangle(1, 1.5, 1);
+		triangle.setColor("yellow");
+		triangle.setFilled(true);
 		//print triangle info
 		System.out.println(triangle.toString());
-		System.out.println("Do the three sides form a triangle?: " + isTriangleValid(side1, side2, side3));
+		System.out.println("Do the three sides form a triangle?: " + isTriangleValid(1,1.5,1));
 		System.out.println("Area: " + triangle.getArea());
 		System.out.println("Perimeter: " + triangle.getPerimeter());
 		System.out.println("Triangle is " + (triangle.isFilled() ? "" : " not ") 
