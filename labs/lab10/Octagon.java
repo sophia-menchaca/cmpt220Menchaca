@@ -17,7 +17,7 @@ public class Octagon extends GeometricObject
 
 	@Override 
 	public double getArea() {
-		return (2 + 4 / Math.sqrt(2)) * side * side;
+		return (2 + 2 * Math.sqrt(2)) * side * side; // JA
 	}
 
 	@Override 

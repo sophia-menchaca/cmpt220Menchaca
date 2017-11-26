@@ -16,7 +16,7 @@ public class RemoveString {
 
         String lineSeparator = System.getProperty("line.separator");
         boolean firstLine =  true;
-            String toBeRemove = "work";
+            String toBeRemove = "work"; // JA: Ypou had to read the word and the file from the command line arguments
         while (input.hasNext()) {
             String s1 = input.nextLine();
             String s2 = s1.replaceAll(toBeRemove, "");
